@@ -2,7 +2,7 @@
  * Simple integration test which shows tests deploying other verticles, using the Vert.x API etc
  */
 
-import org.szimano.integration.java.SomeVerticle
+import org.kgslo.integration.java.SomeVerticle
 
 import static org.vertx.testtools.VertxAssert.*
 
