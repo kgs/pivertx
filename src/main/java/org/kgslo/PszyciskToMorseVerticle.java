@@ -60,7 +60,7 @@ public class PszyciskToMorseVerticle extends Verticle {
             }
 
             private EventBus sendMorseChar(String morseChar) {
-                System.out.println("sending morse char " + morseChar);
+                //System.out.println("sending morse char " + morseChar);
                 return vertx.eventBus().publish("morse-chars", morseChar);
             }
 
